@@ -84,9 +84,9 @@ int main(){
 			if(textline == "> Students"){
 				state = 3;
 			}else{
-			    course c;
+			    
 			    //Append (push_back) textline to lecture_list[] of the recently added course in allcourses[];
-			    c.lecture_list.push_back(textline);
+			    allcourses[i].lecture_list.push_back(textline);
 			}			
 		}else{
 			if(textline == "---------------------------------------"){
